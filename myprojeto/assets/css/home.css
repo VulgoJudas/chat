@@ -1,0 +1,113 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(53, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    width: 250px;
+    min-height: 200px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
+}
+main .user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .user a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+main .user a{
+    text-decoration: none;
+}
+main .user a .nome{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    
+}
+
+main .user .sair{
+    width: 60px;
+    height: 50px;
+    background-color: #bbb;
+    color: #000;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+main .user .sair:hover{
+    background-color: rgb(236, 41, 41);
+    color: #fff;
+}
+
+main .busca_div{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+main .busca_div #busca{
+    width: calc(100% - 10px);
+    margin-left: 5px;
+    background-color: rgb(8, 8, 8);
+    border: none;
+    border-bottom: 1px solid #fff;
+    height: 30px;
+    color: #fff;
+    outline: none;
+    font-size: 18px;
+}
+main .busca_div button{
+    width: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+    font-weight: bold;
+}
+
+.searchResults{
+    width: 250px;
+    background-color: rgb(8, 8, 8);
+}
+.exibir{
+    
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.exibir a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    background-color: #333;
+    width: calc(100% - 5px);
+    padding-left: 8px;
+}
+
+.exibir a:hover{
+    background-color: rgb(8, 8, 8);
+}
