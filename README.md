@@ -1,2 +1,2 @@
-# chat
-chat de conversa.
+#Mensseger.
+A parte de  mostrar as de cada Usuário eu não consegui fazer,eu ate consegui pegar as mensagens no banco de dados, mas não consegui montar  os textos...
